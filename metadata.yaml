@@ -1,2 +1,3 @@
 versions:
-  # Initial version
+  - sha: ebe7089e2694196944c32cf6928f328f43da2b60
+    changeNotes: Initial release.
