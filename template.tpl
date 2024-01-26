@@ -14,6 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Spotler Activate CDP - Conversion API",
+  "categories": ["ADVERTISING","PERSONALIZATION"],
   "brand": {
     "id": "gtm-templates-erwin-vinke",
     "displayName": "gtm-templates-erwin-vinke",
