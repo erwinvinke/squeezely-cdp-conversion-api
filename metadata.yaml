@@ -1,9 +1,11 @@
 homepage: "https://spotleractivate.com/"
-  # created this template in collaboration with Spotler Activate.
+  # created this template in collaboration with Spotler Activate (previously: Squeezely).
 versions:
   # latest version
+  - sha: 6453876e0f6425d371a16e0820caf4f700364417
+    changeNotes: added categories to the template file.
+  # older versions
   - sha: afffd1aac3a4d861d83334a483c26fa03045a61a
     changeNotes: Squeezely rebranding to Spotler Activate. Added links to documentation. Added condition rules for Account ID, API Key and Event name.
-  # older versions
   - sha: 3e25b06abaa9bc92851f9563c1c95742d6aa860d
     changeNotes: Initial release.
