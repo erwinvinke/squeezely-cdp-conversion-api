@@ -1,9 +1,11 @@
 homepage: "https://spotleractivate.com/"
 versions:
   # latest version
+  - sha: e7dbdbb249e44219991beec64b8694615d8dafb5
+    changeNotes: Bug fix: replace shipping or tax with 0 when missing.
+  # older versions
   - sha: 609060de66d05dd689cb4f4bcbb0ca8b40951bc7
     changeNotes: added support to map GA4 ecommerce data and the email from enhanced user data automatically. 
-  # older versions
   - sha: 6453876e0f6425d371a16e0820caf4f700364417
     changeNotes: added categories to the template file.
   - sha: afffd1aac3a4d861d83334a483c26fa03045a61a
