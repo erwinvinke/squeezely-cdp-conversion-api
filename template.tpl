@@ -225,7 +225,7 @@ function mapData(){
       if(eventData.event_name == 'purchase') {
         event.orderid = eventData.transaction_id;
         // sum of value, shipping and tax;
-        event.totalvalue = eventData.value + eventData.shipping + eventData.tax;
+        event.totalvalue = eventData.value + (eventData.shipping || 0) + (eventData.tax || 0);
       }
     }
     
@@ -559,4 +559,4 @@ scenarios:
 
 ___NOTES___
 
-Created on 14-9-2024, 21:47:53
+Created on 14-9-2024, 22:18:19
