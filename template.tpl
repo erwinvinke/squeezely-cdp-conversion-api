@@ -14,13 +14,12 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Spotler Activate CDP - Conversion API",
-  "categories": ["ADVERTISING","PERSONALIZATION"],
   "brand": {
-    "id": "gtm-templates-erwin-vinke",
+    "id": "brand_dummy",
     "displayName": "gtm-templates-erwin-vinke",
     "thumbnail": "data:image/png;base64,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\u003d"
   },
-  "description": "Spotler Activate CDP tag template that sends the event data from the GA4 data client to the Spotler Activate conversion API.",
+  "description": "Spotler Activate CDP tag template to send event tracking data to the Spotler Activate conversion API.",
   "containerContexts": [
     "SERVER"
   ]
@@ -35,20 +34,53 @@ ___TEMPLATE_PARAMETERS___
     "name": "spotlerActivateID",
     "displayName": "Spotler Activate ID",
     "simpleValueType": true,
-    "help": "Find your Spotler Activate ID on the \u003ca target\u003d\"_blank\" href\u003d\"https://app.squeezely.tech/company/settings\"\u003eSpotler Activate settings page\u003c/a\u003e."
+    "help": "Find your Spotler Activate ID on the \u003ca target\u003d\"_blank\" href\u003d\"https://app.squeezely.tech/company/settings\"\u003eSpotler Activate settings page\u003c/a\u003e.",
+    "valueValidators": [
+      {
+        "type": "NON_EMPTY"
+      }
+    ]
   },
   {
     "type": "TEXT",
     "name": "APIkey",
     "displayName": "API key",
     "simpleValueType": true,
-    "help": "Find your Spotler Activate API key on the \u003ca target\u003d\"_blank\" href\u003d\"https://app.squeezely.tech/company/settings\"\u003eSpotler Activate settings page\u003c/a\u003e."
+    "help": "Find your Spotler Activate API key on the \u003ca target\u003d\"_blank\" href\u003d\"https://app.squeezely.tech/company/settings\"\u003eSpotler Activate settings page\u003c/a\u003e.",
+    "valueValidators": [
+      {
+        "type": "NON_EMPTY"
+      }
+    ]
   },
   {
     "type": "TEXT",
     "name": "eventName",
     "displayName": "Event name",
-    "simpleValueType": true
+    "simpleValueType": true,
+    "help": "You can leave this field empty in case of ecommerce events: \u003cstrong\u003eAddToCart, RemoveFromCart, InitiateCheckout, Purchase\u003c/strong\u003e.\u003cbr\u003e\u003cbr\u003eThese event names will be mapped automatically."
+  },
+  {
+    "type": "GROUP",
+    "name": "eventModelData",
+    "displayName": "Ecommerce data",
+    "groupStyle": "ZIPPY_OPEN",
+    "subParams": [
+      {
+        "type": "CHECKBOX",
+        "name": "getEcomData",
+        "checkboxText": "Get ecommerce data from event",
+        "simpleValueType": true,
+        "help": "These parameters will be included: currency, orderid, totalvalue (value + shipping + tax) and products (id, name, quantity, price, optional: language).\n\u003cbr\u003e\u003cbr\u003e\n\u003ci\u003eSend the parameter \u0027item_language\u0027 with your items data in case of a multilanguage setup\u003c/i\u003e"
+      },
+      {
+        "type": "CHECKBOX",
+        "name": "getUserDataEmail",
+        "checkboxText": "Get email from enhanced user data",
+        "simpleValueType": true,
+        "help": "Use this checkbox when you are sending enhanced user data in your event."
+      }
+    ]
   },
   {
     "type": "GROUP",
@@ -59,7 +91,7 @@ ___TEMPLATE_PARAMETERS___
       {
         "type": "LABEL",
         "name": "customDataLabel",
-        "displayName": "Standard parameters that you can send to Spotler Activate can be found in the \u003ca target\u003d\"_blank\" href\u003d\"https://app.squeezely.tech/documentation\"\u003eSpotler Activate API documentation\u003c/a\u003e.\u003cbr /\u003e\n\n\u003cstrong\u003eExamples:\u003c/strong\u003e userid, email, orderid, products. \u003cstrong\u003eNote:\u003c/strong\u003e the URL will be sent automatically."
+        "displayName": "Include your own event parameters using variables.\n\u003cbr\u003e\u003cbr\u003e\nStandard parameters can be found in the \u003ca target\u003d\"_blank\" href\u003d\"https://app.squeezely.tech/documentation\"\u003eSpotler Activate API documentation\u003c/a\u003e."
       },
       {
         "type": "SIMPLE_TABLE",
@@ -128,7 +160,16 @@ const logToConsole = require('logToConsole');
 const getContainerVersion = require('getContainerVersion');
 const eventData = getAllEventData();
 const isLoggingEnabled = determinateIsLoggingEnabled();
-const event = {};
+let event = {};
+
+// GA4 ecommerce variables
+let ecomEventNames = ['add_to_cart','remove_from_cart','begin_checkout','purchase'];
+let ecomCurrency;
+let ecomValue;
+let ecomShipping;
+let ecomTax;
+let ecomTransactionId;
+let ecomItems;
 
 function enc(data) {
   data = data || '';
@@ -141,20 +182,93 @@ const apiToken = enc(data.APIkey);
 const squeezelyId = enc(data.spotlerActivateID);
 
 function mapData(){
-  // Event data
-  const url = eventData.page_location || getRequestHeader('referer');
-  const cookie = getCookieValues('sqzllocal')[0];
-
-  // Build event data model
-  event.sqzly_cookie = cookie;
-  event.url = url;
-  event.event = data.eventName;
   
   // check for custom data
   if (data.customDataList) {
     data.customDataList.forEach((d) => {
       event[d.name] = d.value;
     });
+  }
+  
+  // check for ecommerce item data when there is no custom item data
+  if(!event.products) {
+    // ecommerce data checkbox and ecommerce items check
+    if(data.getEcomData && eventData.items) {
+      const itemData = eventData.items;
+      ecomItems = [];
+      
+      // transform item data for Spotler Activate
+      for (let i = 0; i < itemData.length; i++) {
+        let saItem = {
+          id: itemData[i].item_id,
+          name: itemData[i].item_name,
+          quantity: itemData[i].quantity,
+          price: itemData[i].price
+        };
+        
+        // in case of multiple languages, send 'item_language' parameter in item data
+        if (itemData[i].item_language) {
+          saItem.language = itemData[i].item_language;
+        }
+        
+        ecomItems.push(saItem);
+      }
+      
+      event.products = ecomItems;
+
+      // send currency if available
+      if(eventData.currency) {
+        event.currency = eventData.currency;
+      }
+      
+      // send transaction ID and total value in case of purchase event
+      if(eventData.event_name == 'purchase') {
+        event.orderid = eventData.transaction_id;
+        // sum of value, shipping and tax;
+        event.totalvalue = eventData.value + eventData.shipping + eventData.tax;
+      }
+    }
+    
+  }
+  
+  // Get email from enhanced user data when available
+  if(!event.email) {
+    if(data.getUserDataEmail && (eventData.user_data.email || eventData.user_data.email_address)) {
+      event.email = eventData.email || eventData.email_address;
+    }
+  }
+  
+  // Event data
+  const url = eventData.page_location || getRequestHeader('referer');
+  
+  const sqzlLocalCookie = getCookieValues('sqzllocal')[0];
+
+  // Build event data model
+  event.sqzly_cookie = sqzlLocalCookie;
+  event.url = url;
+  
+  // map event name in case of ecommerce events, else use the custom field
+  if(event.products && ecomEventNames.indexOf(eventData.event_name) !== -1) {
+
+    switch (eventData.event_name) {
+      case 'add_to_cart':
+        event.event = 'AddToCart';
+        break;
+      case 'remove_from_cart':
+        event.event = 'RemoveFromCart';
+        break;
+      case 'begin_checkout':
+        event.event = 'InitiateCheckout';
+        break;
+      case 'purchase':
+        event.event = 'Purchase';
+        break;
+      default:
+        event.event = data.eventName;
+        break;
+    }   
+  } else {
+    event.event = data.eventName;
   }
 }
 
@@ -429,11 +543,20 @@ ___SERVER_PERMISSIONS___
 
 ___TESTS___
 
-scenarios: []
+scenarios:
+- name: Untitled test 1
+  code: |-
+    const mockData = {
+      // Mocked field values
+    };
+
+    // Call runCode to run the template's code.
+    runCode(mockData);
+
+    // Verify that the tag finished successfully.
+    assertApi('gtmOnSuccess').wasCalled();
 
 
 ___NOTES___
 
-Created on 26-1-2024 07:59:44
-
-
+Created on 14-9-2024, 21:47:53
