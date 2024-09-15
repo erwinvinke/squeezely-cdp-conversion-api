@@ -71,7 +71,33 @@ ___TEMPLATE_PARAMETERS___
         "name": "getEcomData",
         "checkboxText": "Get ecommerce data from event",
         "simpleValueType": true,
-        "help": "These parameters will be included: currency, orderid, totalvalue (value + shipping + tax) and products (id, name, quantity, price, optional: language).\n\u003cbr\u003e\u003cbr\u003e\n\u003ci\u003eSend the parameter \u0027item_language\u0027 with your items data in case of a multilanguage setup\u003c/i\u003e"
+        "help": "These parameters will be included: currency, orderid, totalvalue (value + shipping + tax) and products (id, name, quantity, price, optional: language).\n\u003cbr\u003e\u003cbr\u003e\n\u003ci\u003eSend the parameter \u0027item_language\u0027 with your items data in case of a multilanguage setup\u003c/i\u003e",
+        "subParams": [
+          {
+            "type": "SELECT",
+            "name": "calcTotalValue",
+            "displayName": "Calculate totalvalue",
+            "macrosInSelect": false,
+            "selectItems": [
+              {
+                "value": "valueTaxShipping",
+                "displayValue": "value + tax + shipping"
+              },
+              {
+                "value": "valueShipping",
+                "displayValue": "value (incl tax) + shipping"
+              }
+            ],
+            "simpleValueType": true,
+            "enablingConditions": [
+              {
+                "paramName": "getEcomData",
+                "paramValue": true,
+                "type": "EQUALS"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "CHECKBOX",
@@ -223,9 +249,20 @@ function mapData(){
       
       // send transaction ID and total value in case of purchase event
       if(eventData.event_name == 'purchase') {
-        event.orderid = eventData.transaction_id;
+        if(!event.orderid) {
+          event.orderid = eventData.transaction_id;
+        }
         // sum of value, shipping and tax;
-        event.totalvalue = eventData.value + (eventData.shipping || 0) + (eventData.tax || 0);
+        if(!event.totalvalue) {
+          logToConsole(data.calcTotalValue);
+          if(data.calcTotalValue == 'valueTaxShipping') {
+            event.totalvalue = eventData.value + (eventData.shipping || 0) + (eventData.tax || 0);
+          } else if(data.calcTotalValue == 'valueShipping') {
+            event.totalvalue = eventData.value + (eventData.shipping || 0);
+          } else {
+            event.totalValue = eventData.value;
+          }
+        }
       }
     }
     
@@ -559,4 +596,4 @@ scenarios:
 
 ___NOTES___
 
-Created on 14-9-2024, 22:18:19
+Created on 15-9-2024, 11:56:23
