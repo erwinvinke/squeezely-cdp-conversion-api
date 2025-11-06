@@ -1,5 +1,7 @@
 homepage: "https://spotleractivate.com/"
 versions:
+  - sha: f73d5871dba9a6b9572d4b0041835deef1a6a008
+    changeNotes: Removed the encodeURI function from Spotler Activate ID and API-token values to prevent issues with special characters.
   # latest version
   - sha: 6d85d5a4b4d2b576b66e7c6d1ed82461e42bf91c
     changeNotes: Added support to map GA4 ecommerce data and include email from enhanced user data automatically.
